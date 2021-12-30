@@ -2,6 +2,14 @@
 AxiosClient 对 axios 进行封装，提高 axios 易用性。
 :::
 
+![Codacy grade](https://img.shields.io/codacy/grade/bfbd878fcbd54c3280c0074500f67f6b?label=%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F&style=for-the-badge)
+![Codacy coverage](https://img.shields.io/codacy/coverage/bfbd878fcbd54c3280c0074500f67f6b?label=%E8%A6%86%E7%9B%96%E7%8E%87&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/cn-src/axios-client/build?label=%E6%9E%84%E5%BB%BA&style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/cn-src/axios-client?style=for-the-badge&label=%E5%BC%80%E6%BA%90%E5%8D%8F%E8%AE%AE)
+![npm (scoped)](https://img.shields.io/npm/v/@cn-src/axios-client?label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/cn-src/axios-client?style=for-the-badge&label=%E6%9C%80%E6%96%B0%E6%8F%90%E4%BA%A4)
+
+
 * 易于 API 接口声明与调用分离。
 * 提供比 axios 拦截器更易于使用的拦截处理方式。
 * 内置数据格式处理。
