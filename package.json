@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "rimraf lib && tsc && yarn run prettier --write src/** lib/**",
-    "build:full": "yarn run build && yarn run lint && yarn run test",
+    "build:full": "rimraf lib && tsc && eslint . && jest",
     "test": "jest",
     "lint": "eslint .",
     "docs:dev": "vuepress dev docs",
