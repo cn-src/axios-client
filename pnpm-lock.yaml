@@ -517,7 +517,7 @@ packages:
       istanbul-lib-instrument: 4.0.3
       istanbul-lib-report: 3.0.0
       istanbul-lib-source-maps: 4.0.1
-      istanbul-reports: 3.1.2
+      istanbul-reports: 3.1.3
       jest-haste-map: 26.6.2
       jest-resolve: 26.6.2
       jest-util: 26.6.2
@@ -870,13 +870,13 @@ packages:
       eslint-visitor-keys: 2.1.0
     dev: true
 
-  /@vitejs/plugin-vue/1.10.2_vite@2.7.9:
+  /@vitejs/plugin-vue/1.10.2_vite@2.7.10:
     resolution: {integrity: sha512-/QJ0Z9qfhAFtKRY+r57ziY4BSbGUTGsPRMpB/Ron3QPwBZM4OZAZHdTa4a8PafCwU5DTatXG8TMDoP8z+oDqJw==, tarball: '@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.10.2.tgz'}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
     dependencies:
-      vite: 2.7.9
+      vite: 2.7.10
     dev: true
 
   /@vue/compiler-core/3.2.26:
@@ -969,19 +969,19 @@ packages:
   /@vuepress/bundler-vite/2.0.0-beta.32:
     resolution: {integrity: sha512-ahB5AoPwLnpwCH9Lg6asznjV2tIFpQsWqfZV2Nfv9nxUl0da3iq9lMS9f2IH7RCSLoBa46VOizFCOFsvgeccDQ==, tarball: '@vuepress/bundler-vite/download/@vuepress/bundler-vite-2.0.0-beta.32.tgz'}
     dependencies:
-      '@vitejs/plugin-vue': 1.10.2_vite@2.7.9
+      '@vitejs/plugin-vue': 1.10.2_vite@2.7.10
       '@vue/compiler-sfc': 3.2.26
       '@vue/server-renderer': 3.2.26_vue@3.2.26
       '@vuepress/client': 2.0.0-beta.32
       '@vuepress/core': 2.0.0-beta.32
       '@vuepress/shared': 2.0.0-beta.32
       '@vuepress/utils': 2.0.0-beta.32
-      autoprefixer: 10.4.0_postcss@8.4.5
+      autoprefixer: 10.4.1_postcss@8.4.5
       connect-history-api-fallback: 1.6.0
       postcss: 8.4.5
       postcss-csso: 5.0.1_postcss@8.4.5
       rollup: 2.62.0
-      vite: 2.7.9
+      vite: 2.7.10
       vue: 3.2.26
       vue-router: 4.0.12_vue@3.2.26
     transitivePeerDependencies:
@@ -1300,7 +1300,7 @@ packages:
     dev: true
 
   /ajv/6.12.6:
-    resolution: {integrity: sha1-uvWmLoArB9l3A0WG+MO69a3ybfQ=, tarball: ajv/download/ajv-6.12.6.tgz}
+    resolution: {integrity: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==, tarball: ajv/download/ajv-6.12.6.tgz}
     dependencies:
       fast-deep-equal: 3.1.3
       fast-json-stable-stringify: 2.1.0
@@ -1428,8 +1428,8 @@ packages:
     hasBin: true
     dev: true
 
-  /autoprefixer/10.4.0_postcss@8.4.5:
-    resolution: {integrity: sha512-7FdJ1ONtwzV1G43GDD0kpVMn/qbiNqyOPMFTX5nRffI+7vgWoFEc6DcXOxHJxrWNDXrZh18eDsZjvZGUljSRGA==, tarball: autoprefixer/download/autoprefixer-10.4.0.tgz}
+  /autoprefixer/10.4.1_postcss@8.4.5:
+    resolution: {integrity: sha512-B3ZEG7wtzXDRCEFsan7HmR2AeNsxdJB0+sEC0Hc5/c2NbhJqPwuZm+tn233GBVw82L+6CtD6IPSfVruwKjfV3A==, tarball: autoprefixer/download/autoprefixer-10.4.1.tgz}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1599,7 +1599,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001294
-      electron-to-chromium: 1.4.29
+      electron-to-chromium: 1.4.30
       escalade: 3.1.1
       node-releases: 2.0.1
       picocolors: 1.0.0
@@ -2001,8 +2001,8 @@ packages:
       webidl-conversions: 5.0.0
     dev: true
 
-  /electron-to-chromium/1.4.29:
-    resolution: {integrity: sha512-N2Jbwxo5Rum8G2YXeUxycs1sv4Qme/ry71HG73bv8BvZl+I/4JtRgK/En+ST/Wh/yF1fqvVCY4jZBgMxnhjtBA==, tarball: electron-to-chromium/download/electron-to-chromium-1.4.29.tgz}
+  /electron-to-chromium/1.4.30:
+    resolution: {integrity: sha512-609z9sIMxDHg+TcR/VB3MXwH+uwtrYyeAwWc/orhnr90ixs6WVGSrt85CDLGUdNnLqCA7liv426V20EecjvflQ==, tarball: electron-to-chromium/download/electron-to-chromium-1.4.30.tgz}
     dev: true
 
   /emittery/0.7.2:
@@ -3260,8 +3260,8 @@ packages:
       - supports-color
     dev: true
 
-  /istanbul-reports/3.1.2:
-    resolution: {integrity: sha512-0gHxuT1NNC0aEIL1zbJ+MTgPbbHhU77eJPuU35WKA7TgXiSNlCAx4PENoMrH0Or6M2H80TaZcWKhM0IK6V8gRw==, tarball: istanbul-reports/download/istanbul-reports-3.1.2.tgz}
+  /istanbul-reports/3.1.3:
+    resolution: {integrity: sha512-x9LtDVtfm/t1GFiLl3NffC7hz+I1ragvgX1P/Lg1NlIagifZDKUkuuaAxH/qpwj2IuEfD8G2Bs/UKp+sZ/pKkg==, tarball: istanbul-reports/download/istanbul-reports-3.1.3.tgz}
     engines: {node: '>=8'}
     dependencies:
       html-escaper: 2.0.2
@@ -3701,7 +3701,7 @@ packages:
     dev: true
 
   /js-yaml/3.14.1:
-    resolution: {integrity: sha1-2ugS/bOCX6MGYJqHFzg8UMNqBTc=, tarball: js-yaml/download/js-yaml-3.14.1.tgz}
+    resolution: {integrity: sha512-okMH7OXXJ7YrN9Ok3/SXrnu4iX9yOk+25nqX4imS2npuvTYDmo/QEZoqwZkYaIDk3jVvBOTOIEgEhaLOynBS9g==, tarball: js-yaml/download/js-yaml-3.14.1.tgz}
     hasBin: true
     dependencies:
       argparse: 1.0.10
@@ -5334,8 +5334,8 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/2.7.9:
-    resolution: {integrity: sha512-CyopIJIRrc26Wnbkch5BCHFhQodzeV4jjSegLAEw1RImvXSuoOo2SfpEW9zRVi188WmjJwCqCaoG25C0r4nekw==, tarball: vite/download/vite-2.7.9.tgz}
+  /vite/2.7.10:
+    resolution: {integrity: sha512-KEY96ntXUid1/xJihJbgmLZx7QSC2D4Tui0FdS0Old5OokYzFclcofhtxtjDdGOk/fFpPbHv9yw88+rB93Tb8w==, tarball: vite/download/vite-2.7.10.tgz}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
