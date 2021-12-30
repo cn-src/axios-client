@@ -1,0 +1,19 @@
+.theorem {
+  margin: 1rem 0;
+  padding: .1rem 1.5rem;
+  border-radius: 0.4rem;
+  background-color: var(--c-tip-bg);
+  .title {
+    font-weight:bold;
+  }
+}
+
+.custom-container{
+  &.right{
+    color: transparentify(var(--c-text), 0.4);
+    font-size: 0.9rem;
+    text-align: right;
+}
+}
+
+ 
