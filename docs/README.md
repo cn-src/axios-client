@@ -12,17 +12,17 @@ actions:
 :::: code-group
 ::: code-group-item PNPM
 ```shell
-pnpm install axios-client@next
+pnpm install @cn-src/axios-client@next
 ```
 :::
 ::: code-group-item YARN
 ```shell
-yarn add axios-client@next
+yarn add @cn-src/axios-client@next
 ```
 :::
 ::: code-group-item NPM
 ```shell
-npm install axios-client@next
+npm install @cn-src/axios-client@next
 ```
 :::
 ::::
