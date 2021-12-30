@@ -19,7 +19,7 @@ module.exports = {
                 link: "http://106.15.203.228/",
             },
             {
-                text: "gitee",
+                text: "Gitee",
                 link: "https://gitee.com/cn-src/axios-client",
             },
         ],
