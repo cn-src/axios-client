@@ -26,4 +26,4 @@ jobs:
         with:
           version: 6.24.4
       - name: build
-        run: pnpm run build:full
+        run: pnpm install && pnpm run build:full
