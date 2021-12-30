@@ -60,10 +60,7 @@ export default class AxiosClient {
     /**
      * POST 请求, Content-Type 为 multipart/form-data, 一般用于文件上传。
      */
-    postFormData<D = any, PV = any>(
-        url: string,
-        config: AxiosClientRequestConfig<D, PV, never> = {}
-    ) {
+    postFormData<D = any, PV = any>(url: string, config: AxiosClientRequestConfig<D, PV, never> = {}) {
         config.url = url;
         config.method = "post";
         config.dataSerializer = (data) => paramConverter(FormData, data);
@@ -103,8 +100,10 @@ export function mergeConfig<D, PV, P>(
     methodCfg?: AxiosClientRequestConfig<D, PV, P>
 ): AxiosClientRequestConfig<D, PV, P> {
     const cfg: AxiosClientConfig = Object.assign(Object.assign({}, clientCfg), methodCfg);
-    cfg.onlyResponseData = cfg.hasOwnProperty("onlyResponseData") ? cfg.onlyResponseData : true;
-    cfg.onlyCatchData = cfg.hasOwnProperty("onlyCatchData") ? cfg.onlyCatchData : true;
+    const hasRes = Object.prototype.hasOwnProperty.call(cfg, "onlyResponseData");
+    cfg.onlyResponseData = hasRes ? cfg.onlyResponseData : true;
+    const hasCatch = Object.prototype.hasOwnProperty.call(cfg, "onlyCatchData");
+    cfg.onlyCatchData = hasCatch ? cfg.onlyCatchData : true;
     const method = cfg.method?.toLowerCase();
     let onMethod: Handler | undefined;
     switch (method) {
