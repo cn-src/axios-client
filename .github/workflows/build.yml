@@ -27,5 +27,5 @@ jobs:
           version: 6.24.4
       - name: build
         run: pnpm install && pnpm run build:full
-      - name: build
+      - name: codacy
         run: bash <(curl -Ls https://coverage.codacy.com/get.sh) report -r ./coverage/lcov.info
