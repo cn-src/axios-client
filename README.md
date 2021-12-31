@@ -6,3 +6,19 @@
 
 # axios-client
 axios 封装
+
+## 使用
+
+```shell
+pnpm install @cn-src/axios-client@next
+```
+```shell
+yarn add @cn-src/axios-client@next
+```
+```shell
+npm install @cn-src/axios-client@next
+```
+
+## 文档
+
+地址: [http://106.15.203.228/axios-client/](http://106.15.203.228/axios-client/)
