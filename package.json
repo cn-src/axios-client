@@ -5,12 +5,10 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf lib && tsc && yarn run prettier --write src/** lib/**",
+    "build": "rimraf lib && tsc && pnpm run prettier --write src/** lib/**",
     "build:full": "rimraf lib && tsc && eslint . && jest",
     "test": "jest",
-    "lint": "eslint .",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "lint": "eslint ."
   },
   "dependencies": {
     "axios": "^0.24.0"
@@ -19,8 +17,6 @@
     "@types/jest": "^26.0.23",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
-    "@vuepress/plugin-container": "^2.0.0-beta.32",
-    "@vuepress/plugin-search": "^2.0.0-beta.32",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "jest": "^26.6.3",
@@ -29,8 +25,7 @@
     "rewire": "^5.0.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^26.5.6",
-    "typescript": "^4.2.4",
-    "vuepress": "^2.0.0-beta.32"
+    "typescript": "^4.2.4"
   },
   "repository": {
     "type": "git",
